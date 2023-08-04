@@ -10813,4 +10813,57 @@ h5,
 
 .films img {
   width: 100%;
+}
+
+::-moz-placeholder {
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.settings {
+  width: 60%;
+}
+.settings p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.settings button {
+  width: 40%;
+}
+.settings .avatar {
+  position: relative;
+}
+.settings .avatar button {
+  position: absolute;
+  width: 40px;
+  top: 150px;
+  left: 15px;
+}
+.settings .form-check {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.settings .form-check input {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background: #141414;
+  border-color: #808080;
+}
+.settings .form-check input :checked {
+  color: #808080;
+}
+
+.finalbtns {
+  padding-bottom: 50px;
+}
+.finalbtns button {
+  font-size: 25px;
+  font-weight: 700;
+  width: 90%;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

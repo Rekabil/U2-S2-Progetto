@@ -45,3 +45,53 @@ h5,
     width: 100%;
   }
 }
+
+::placeholder {
+  color: #ffffff;
+}
+
+.settings {
+  width: 60%;
+  p {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  button {
+    width: 40%;
+  }
+  .avatar {
+    position: relative;
+    button {
+      position: absolute;
+      width: 40px;
+      top: 150px;
+      left: 15px;
+    }
+  }
+  .form-check {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    input {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+      background: #141414;
+      border-color: #808080;
+      :checked {
+        color: #808080;
+      }
+    }
+  }
+}
+
+.finalbtns {
+  button {
+    font-size: 25px;
+    font-weight: 700;
+    width: 90%;
+    padding: 10px;
+  }
+  padding-bottom: 50px;
+}

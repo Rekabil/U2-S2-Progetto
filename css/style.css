@@ -10767,7 +10767,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  padding: 0 50px;
+  padding: 0;
   margin: 0;
   background: #141414;
   color: #808080;
@@ -10866,4 +10866,40 @@ h5,
   font-weight: 700;
   width: 90%;
   padding: 10px;
+}
+
+main h1, main .h1,
+main h2,
+main .h2,
+main h3,
+main .h3,
+main h4,
+main .h4,
+main h5,
+main .h5 {
+  color: #141414;
+}
+
+.sets {
+  width: 60%;
+  font-size: 20px;
+}
+.sets h6, .sets .h6 {
+  font-size: 20px;
+  color: #141414;
+}
+.sets h6 img, .sets .h6 img {
+  width: 60px;
+}
+.sets .setTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+.sets a {
+  color: #5d8bc6;
+  text-decoration: none;
+}
+.sets a:link:active,
+.sets a:visited:active {
+  color: #5d8bc6;
 }/*# sourceMappingURL=style.css.map */
